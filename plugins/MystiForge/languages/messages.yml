@@ -1,0 +1,83 @@
+# MystiForge Messages
+# Author: duxg
+# Version: 1.0
+
+# Plugin messages
+messages:
+  # Command messages
+  wiki-opened: "&6Stats Wiki opened!"
+  config-reloaded: "&aConfiguration reloaded successfully!"
+  no-permission: "&cYou don't have permission to use this command!"
+  invalid-command: "&cInvalid command usage! Use /mf wiki or /mf reload"
+  stats-not-found: "&cNo stats configuration found!"
+  error-loading-stats: "&cError loading stats configuration!"
+  
+  # Debug messages
+  debug-enabled: "&aDebug mode enabled!"
+  debug-disabled: "&cDebug mode disabled!"
+  debug-stat-applied: "&7[DEBUG] Applied stat '%stat_name%' to %item_name% (slot: %slot%)"
+  debug-effect-applied: "&7[DEBUG] Applied effect %effect_name% level %level% to %player_name%"
+  debug-effect-removed: "&7[DEBUG] Removed effect %effect_name% from %player_name%"
+  
+  # Info command messages
+  info-header: "&6&l=== MystiForge Info ==="
+  info-version: "&7Version: &f%version%"
+  info-author: "&7Author: &f%author%"
+  info-loaded-stats: "&7Loaded Stats: &f%count%"
+  info-whitelist-header: "&6Item Type Whitelist (with Equipment Slots):"
+  info-armor-count: "&7- ARMOR: &f%count% items"
+  info-weapon-count: "&7- WEAPON: &f%count% items"
+  info-tool-count: "&7- TOOL: &f%count% items"
+  info-total-count: "&7- Total: &f%count% items"
+  info-equipment-slots: "&7- Equipment slots: &fHEAD, CHEST, LEGS, FEET, MAINHAND, OFFHAND, etc."
+  info-randomization-header: "&6Randomization Settings:"
+  info-on-craft: "&7- On Craft: %status%"
+  info-on-pickup: "&7- On Pickup: %status%"
+  info-on-loot-chest: "&7- On Loot Chest: %status%"
+  info-footer: "&7Use &f/mf wiki &7to view all available stats!"
+  
+  # Help command messages
+  help-header: "&6&l=== MystiForge Commands ==="
+  help-wiki: "&f/mf wiki &7- Open the stats wiki GUI"
+  help-info: "&f/mf info &7- Show plugin information"
+  help-help: "&f/mf help &7- Show this help message"
+  help-reload: "&f/mf reload &7- Reload plugin configuration"
+  help-debug: "&f/mf debug &7- Toggle debug mode"
+  help-footer: "&7Plugin by &fduxg &7| Version &f%version%"
+  
+  # Status messages
+  status-enabled: "&aEnabled"
+  status-disabled: "&cDisabled"
+  
+  # Error messages
+  error-player-only: "&cThis command can only be used by players!"
+  error-config-validation: "&cConfiguration validation found issues, but continuing..."
+  error-stats-loading: "&cFailed to load stats configuration!"
+  error-reload-failed: "&cFailed to reload configuration! Check console for errors."
+  error-reload-exception: "&cError reloading configuration: %error%"
+  
+  # GUI messages
+  gui-title: "&6&lMystiForge Stats Wiki"
+  gui-page-info: "&6Page %current% of %total%"
+  gui-total-stats: "&7Total Stats: &f%count%"
+  gui-showing-stats: "&7Showing: &f%count%"
+  gui-previous-page: "&a← Previous Page"
+  gui-next-page: "&aNext Page →"
+  gui-close: "&cClose"
+  gui-stat-chance: "&7Chance: &f%chance%%"
+  gui-attributes-header: "&6Attributes:"
+  gui-effects-header: "&6Effects:"
+  
+  # Validation messages
+  validation-success: "&aConfiguration validated successfully"
+  validation-warnings: "&eConfiguration validation warnings found"
+  validation-errors: "&cConfiguration validation errors found"
+  
+  # Effect management messages
+  effect-applied: "&7Effect %effect% applied to %player%"
+  effect-removed: "&7Effect %effect% removed from %player%"
+  effects-updated: "&7Effects updated for %player%"
+  
+  # Attribute messages
+  attribute-added: "&7Added attribute %attribute% to %item%"
+  attribute-preserved: "&7Original attributes preserved for %item%"

@@ -1,1 +1,0 @@
-java -Xms6G -jar purpur*.jar

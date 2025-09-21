@@ -1,0 +1,804 @@
+# MystiForge Stats Configuration
+# Author: duxg
+# Version: 1.0
+
+stats:
+  warrior_strength:
+    type:
+      - "WEAPON"
+    display-name: "&c&lWarrior's Strength"
+    descriptions:
+      - "Enhances combat prowess with increased"
+      - "damage and health for brave warriors"
+    chance: 15.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 2.0
+      GENERIC_MAX_HEALTH: 4.0
+    effects:
+      INCREASE_DAMAGE: 1
+
+  swift_runner:
+    type:
+      - "ARMOR"
+    display-name: "&b&lSwift Runner"
+    descriptions:
+      - "Grants incredible speed and agility"
+      - "for those who value mobility"
+    chance: 20.0
+    attributes:
+      GENERIC_MOVEMENT_SPEED: 0.05
+    effects:
+      SPEED: 2
+
+  tank_defender:
+    type:
+      - "ARMOR"
+    display-name: "&8&lTank Defender"
+    descriptions:
+      - "Heavy armor that provides exceptional"
+      - "protection at the cost of mobility"
+    chance: 12.0
+    attributes:
+      GENERIC_MAX_HEALTH: 8.0
+      GENERIC_ARMOR: 2.0
+      GENERIC_MOVEMENT_SPEED: -0.05
+    effects:
+      DAMAGE_RESISTANCE: 1
+
+  mystic_regeneration:
+    type:
+      - "ALL"
+    display-name: "&d&lMystic Regeneration"
+    descriptions:
+      - "Mystical energy that slowly heals"
+      - "wounds and restores vitality"
+    chance: 18.0
+    attributes:
+      GENERIC_MAX_HEALTH: 6.0
+    effects:
+      REGENERATION: 2
+
+  berserker_fury:
+    type:
+      - "WEAPON"
+    display-name: "&4&lBerserker's Fury"
+    descriptions:
+      - "Unleashes primal rage for devastating"
+      - "attacks but weakens the body"
+    chance: 8.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 4.0
+      GENERIC_ATTACK_SPEED: 0.1
+      GENERIC_MAX_HEALTH: -2.0
+    effects:
+      INCREASE_DAMAGE: 2
+
+  archer_precision:
+    type:
+      - "WEAPON"
+    display-name: "&a&lArcher's Precision"
+    descriptions:
+      - "Enhances accuracy and perception"
+      - "for skilled marksmen"
+    chance: 16.0
+    attributes:
+      GENERIC_LUCK: 2.0
+    effects:
+      NIGHT_VISION: 1
+
+  mage_wisdom:
+    type:
+      - "ALL"
+    display-name: "&5&lMage's Wisdom"
+    descriptions:
+      - "Ancient knowledge that grants"
+      - "magical sight and breathing"
+    chance: 14.0
+    attributes:
+      GENERIC_MAX_HEALTH: 2.0
+    effects:
+      WATER_BREATHING: 1
+      NIGHT_VISION: 1
+
+  cursed_power:
+    type:
+      - "WEAPON"
+    display-name: "&0&lCursed Power"
+    descriptions:
+      - "Dark magic that grants immense power"
+      - "but drains life force as payment"
+    chance: 5.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 6.0
+      GENERIC_MAX_HEALTH: -4.0
+    effects:
+      INCREASE_DAMAGE: 3
+      WEAKNESS: 1
+
+  blessed_protection:
+    type:
+      - "ARMOR"
+    display-name: "&e&lBlessed Protection"
+    descriptions:
+      - "Divine blessing that shields the"
+      - "wearer from harm and damage"
+    chance: 10.0
+    attributes:
+      GENERIC_ARMOR: 4.0
+      GENERIC_ARMOR_TOUGHNESS: 2.0
+    effects:
+      DAMAGE_RESISTANCE: 2
+
+  elemental_mastery:
+    type:
+      - "WEAPON"
+      - "TOOL"
+    display-name: "&#FF6B35&lElemental Mastery"
+    descriptions:
+      - "Mastery over fire and water elements"
+      - "granting resistance and power"
+    chance: 7.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 3.0
+      GENERIC_LUCK: 1.0
+    effects:
+      FIRE_RESISTANCE: 1
+      WATER_BREATHING: 1
+
+  mining_efficiency:
+    type:
+      - "TOOL"
+    display-name: "&6&lMining Efficiency"
+    descriptions:
+      - "Optimized tool design that increases"
+      - "mining speed and ore discovery"
+    chance: 12.0
+    attributes:
+      GENERIC_LUCK: 3.0
+    effects:
+      FAST_DIGGING: 1
+
+  craftsman_skill:
+    type:
+      - "TOOL"
+    display-name: "&e&lCraftsman's Skill"
+    descriptions:
+      - "Expert craftsmanship that enhances"
+      - "tool efficiency and performance"
+    chance: 18.0
+    attributes:
+      GENERIC_LUCK: 1.0
+    effects:
+      FAST_DIGGING: 2
+
+  # === ADVANCED STATS ===
+
+  shadow_walker:
+    type:
+      - "ARMOR"
+    display-name: "&0&lShadow Walker"
+    descriptions:
+      - "Embrace the darkness to move unseen"
+      - "through shadows with enhanced vision"
+    chance: 8.0
+    attributes:
+      GENERIC_MOVEMENT_SPEED: 0.03
+      GENERIC_ARMOR: -1.0
+    effects:
+      INVISIBILITY: 1
+      NIGHT_VISION: 1
+
+  flame_guardian:
+    type:
+      - "ARMOR"
+    display-name: "&c&lFlame Guardian"
+    descriptions:
+      - "Forged in fire, this armor protects"
+      - "against flames and burns brightly"
+    chance: 12.0
+    attributes:
+      GENERIC_ARMOR_TOUGHNESS: 1.0
+      GENERIC_KNOCKBACK_RESISTANCE: 0.1
+    effects:
+      FIRE_RESISTANCE: 1
+      GLOWING: 1
+
+  frost_bite:
+    type:
+      - "WEAPON"
+    display-name: "&b&lFrost Bite"
+    descriptions:
+      - "Ice-cold weapon that freezes enemies"
+      - "on contact, slowing their movement"
+    chance: 10.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 1.5
+      GENERIC_ATTACK_SPEED: -0.1
+    effects:
+      SLOW: 1
+
+  wind_runner:
+    type:
+      - "ARMOR"
+    display-name: "&f&lWind Runner"
+    descriptions:
+      - "Harness the power of wind for"
+      - "incredible speed and graceful falls"
+    chance: 15.0
+    attributes:
+      GENERIC_MOVEMENT_SPEED: 0.08
+      GENERIC_JUMP_STRENGTH: 0.2
+    effects:
+      SPEED: 2
+      SLOW_FALLING: 1
+
+  earth_shaker:
+    type:
+      - "WEAPON"
+    display-name: "&6&lEarth Shaker"
+    descriptions:
+      - "Mighty weapon that shakes the ground"
+      - "with devastating knockback power"
+    chance: 7.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 3.0
+      GENERIC_ATTACK_KNOCKBACK: 1.0
+      GENERIC_MOVEMENT_SPEED: -0.02
+    effects:
+      INCREASE_DAMAGE: 1
+
+  void_touched:
+    type:
+      - "ALL"
+    display-name: "&5&lVoid Touched"
+    descriptions:
+      - "Corrupted by void energy, granting"
+      - "power at the cost of life essence"
+    chance: 4.0
+    attributes:
+      GENERIC_MAX_HEALTH: -2.0
+      GENERIC_ATTACK_DAMAGE: 4.0
+      GENERIC_LUCK: 3.0
+    effects:
+      WITHER: 1
+      INCREASE_DAMAGE: 2
+
+  aqua_master:
+    type:
+      - "ARMOR"
+    display-name: "&3&lAqua Master"
+    descriptions:
+      - "Master of the seas with enhanced"
+      - "underwater movement and breathing"
+    chance: 13.0
+    attributes:
+      GENERIC_WATER_MOVEMENT_EFFICIENCY: 0.5
+      GENERIC_OXYGEN_BONUS: 200.0
+    effects:
+      WATER_BREATHING: 1
+      DOLPHINS_GRACE: 1
+
+  lightning_strike:
+    type:
+      - "WEAPON"
+    display-name: "&e&lLightning Strike"
+    descriptions:
+      - "Electrified weapon that strikes with"
+      - "the speed and power of lightning"
+    chance: 9.0
+    attributes:
+      GENERIC_ATTACK_SPEED: 0.3
+      GENERIC_MOVEMENT_SPEED: 0.05
+    effects:
+      SPEED: 1
+      GLOWING: 1
+
+  iron_will:
+    type:
+      - "ARMOR"
+    display-name: "&7&lIron Will"
+    descriptions:
+      - "Unbreakable determination that resists"
+      - "knockback and absorbs incoming damage"
+    chance: 16.0
+    attributes:
+      GENERIC_KNOCKBACK_RESISTANCE: 0.3
+      GENERIC_ARMOR: 2.0
+    effects:
+      DAMAGE_RESISTANCE: 1
+      ABSORPTION: 1
+
+  nature_blessing:
+    type:
+      - "ALL"
+    display-name: "&a&lNature's Blessing"
+    descriptions:
+      - "Blessed by nature spirits with"
+      - "healing powers and good fortune"
+    chance: 11.0
+    attributes:
+      GENERIC_MAX_HEALTH: 6.0
+      GENERIC_LUCK: 2.0
+    effects:
+      REGENERATION: 1
+      SATURATION: 1
+
+  berserker_rage:
+    type:
+      - "WEAPON"
+    display-name: "&4&lBerserker's Rage"
+    descriptions:
+      - "Uncontrolled fury that devastates"
+      - "enemies but leaves you vulnerable"
+    chance: 6.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 5.0
+      GENERIC_ATTACK_SPEED: 0.2
+      GENERIC_ARMOR: -2.0
+    effects:
+      INCREASE_DAMAGE: 3
+      WEAKNESS: 1
+
+  scholar_wisdom:
+    type:
+      - "TOOL"
+    display-name: "&9&lScholar's Wisdom"
+    descriptions:
+      - "Ancient knowledge that improves"
+      - "efficiency and reveals hidden secrets"
+    chance: 14.0
+    attributes:
+      GENERIC_LUCK: 4.0
+      GENERIC_MOVEMENT_EFFICIENCY: 0.2
+    effects:
+      FAST_DIGGING: 1
+      NIGHT_VISION: 1
+
+  phoenix_rebirth:
+    type:
+      - "ARMOR"
+    display-name: "&#FF6B35&lPhoenix Rebirth"
+    descriptions:
+      - "Rise from ashes with enhanced health"
+      - "and immunity to fire damage"
+    chance: 5.0
+    attributes:
+      GENERIC_MAX_HEALTH: 8.0
+      GENERIC_BURNING_TIME: -100.0
+    effects:
+      FIRE_RESISTANCE: 1
+      REGENERATION: 2
+      HEALTH_BOOST: 1
+
+  storm_caller:
+    type:
+      - "WEAPON"
+    display-name: "&1&lStorm Caller"
+    descriptions:
+      - "Command the storms with levitation"
+      - "and electrifying combat prowess"
+    chance: 8.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 2.5
+      GENERIC_FLYING_SPEED: 0.1
+    effects:
+      LEVITATION: 1
+      GLOWING: 1
+
+  mountain_endurance:
+    type:
+      - "ARMOR"
+    display-name: "&8&lMountain Endurance"
+    descriptions:
+      - "Solid as a mountain with incredible"
+      - "durability but reduced mobility"
+    chance: 12.0
+    attributes:
+      GENERIC_MAX_HEALTH: 10.0
+      GENERIC_MOVEMENT_SPEED: -0.03
+      GENERIC_STEP_HEIGHT: 0.5
+    effects:
+      DAMAGE_RESISTANCE: 2
+      SLOW: 1
+
+  assassin_stealth:
+    type:
+      - "WEAPON"
+      - "ARMOR"
+    display-name: "&0&lAssassin's Stealth"
+    descriptions:
+      - "Master of shadows with deadly speed"
+      - "and the ability to strike unseen"
+    chance: 7.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 3.0
+      GENERIC_MOVEMENT_SPEED: 0.06
+      GENERIC_ARMOR: -1.0
+    effects:
+      INVISIBILITY: 1
+      SPEED: 2
+
+  divine_protection:
+    type:
+      - "ARMOR"
+    display-name: "&f&lDivine Protection"
+    descriptions:
+      - "Sacred armor blessed by divine forces"
+      - "offering ultimate protection and light"
+    chance: 6.0
+    attributes:
+      GENERIC_ARMOR: 4.0
+      GENERIC_ARMOR_TOUGHNESS: 3.0
+      GENERIC_EXPLOSION_KNOCKBACK_RESISTANCE: 0.5
+    effects:
+      DAMAGE_RESISTANCE: 2
+      ABSORPTION: 2
+      GLOWING: 1
+
+  cursed_hunger:
+    type:
+      - "ALL"
+    display-name: "&2&lCursed Hunger"
+    descriptions:
+      - "Dark curse that grants power through"
+      - "constant hunger and endless appetite"
+    chance: 9.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 2.0
+      GENERIC_MAX_HEALTH: 4.0
+    effects:
+      INCREASE_DAMAGE: 1
+      HUNGER: 2
+
+  gravity_defier:
+    type:
+      - "ARMOR"
+    display-name: "&d&lGravity Defier"
+    descriptions:
+      - "Defies the laws of gravity with"
+      - "enhanced jumping and soft landings"
+    chance: 10.0
+    attributes:
+      GENERIC_GRAVITY: -0.02
+      GENERIC_SAFE_FALL_DISTANCE: 5.0
+      GENERIC_FALL_DAMAGE_MULTIPLIER: -0.3
+    effects:
+      SLOW_FALLING: 1
+      JUMP: 2
+
+  # === LEGENDARY STATS ===
+
+  dragon_slayer:
+    type:
+      - "WEAPON"
+    display-name: "&#FF0000&lDragon Slayer"
+    descriptions:
+      - "Forged to slay the mightiest dragons"
+      - "with overwhelming power and fury"
+    chance: 3.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 8.0
+      GENERIC_ATTACK_SPEED: 0.4
+      GENERIC_LUCK: 5.0
+    effects:
+      INCREASE_DAMAGE: 3
+      FIRE_RESISTANCE: 1
+      GLOWING: 1
+
+  immortal_guardian:
+    type:
+      - "ARMOR"
+    display-name: "&#FFD700&lImmortal Guardian"
+    descriptions:
+      - "Legendary armor that grants near"
+      - "immortality to its worthy bearer"
+    chance: 2.0
+    attributes:
+      GENERIC_MAX_HEALTH: 20.0
+      GENERIC_ARMOR: 6.0
+      GENERIC_ARMOR_TOUGHNESS: 5.0
+      GENERIC_KNOCKBACK_RESISTANCE: 0.8
+    effects:
+      DAMAGE_RESISTANCE: 3
+      REGENERATION: 2
+      ABSORPTION: 3
+
+  void_reaper:
+    type:
+      - "WEAPON"
+    display-name: "&5&lVoid Reaper"
+    descriptions:
+      - "Harvests souls from the void realm"
+      - "growing stronger with each kill"
+    chance: 4.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 6.0
+      GENERIC_MAX_HEALTH: -6.0
+      GENERIC_LUCK: 8.0
+    effects:
+      WITHER: 2
+      INCREASE_DAMAGE: 4
+      INVISIBILITY: 1
+
+  celestial_wings:
+    type:
+      - "ARMOR"
+    display-name: "&#87CEEB&lCelestial Wings"
+    descriptions:
+      - "Wings blessed by celestial beings"
+      - "granting flight and divine protection"
+    chance: 3.5
+    attributes:
+      GENERIC_FLYING_SPEED: 0.3
+      GENERIC_GRAVITY: -0.05
+      GENERIC_SAFE_FALL_DISTANCE: 20.0
+    effects:
+      LEVITATION: 1
+      SLOW_FALLING: 1
+      GLOWING: 1
+
+  # === ELEMENTAL MASTERS ===
+
+  inferno_master:
+    type:
+      - "WEAPON"
+      - "ARMOR"
+    display-name: "&#FF4500&lInferno Master"
+    descriptions:
+      - "Commands the power of eternal flames"
+      - "burning enemies and protecting allies"
+    chance: 8.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 3.5
+      GENERIC_BURNING_TIME: -200.0
+      GENERIC_ARMOR_TOUGHNESS: 2.0
+    effects:
+      FIRE_RESISTANCE: 1
+      INCREASE_DAMAGE: 2
+      GLOWING: 1
+
+  frost_monarch:
+    type:
+      - "WEAPON"
+      - "ARMOR"
+    display-name: "&#00BFFF&lFrost Monarch"
+    descriptions:
+      - "Rules over the frozen wastelands"
+      - "with ice-cold precision and power"
+    chance: 8.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 3.0
+      GENERIC_MOVEMENT_SPEED: 0.04
+      GENERIC_ARMOR: 3.0
+    effects:
+      SLOW: 2
+      SPEED: 1
+      ABSORPTION: 1
+
+  thunder_lord:
+    type:
+      - "WEAPON"
+    display-name: "&#FFD700&lThunder Lord"
+    descriptions:
+      - "Wields the raw power of lightning"
+      - "striking with thunderous force"
+    chance: 7.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 4.0
+      GENERIC_ATTACK_SPEED: 0.5
+      GENERIC_MOVEMENT_SPEED: 0.08
+    effects:
+      SPEED: 2
+      GLOWING: 1
+      LEVITATION: 1
+
+  earth_titan:
+    type:
+      - "ARMOR"
+    display-name: "&#8B4513&lEarth Titan"
+    descriptions:
+      - "Embodies the strength of mountains"
+      - "and the endurance of stone"
+    chance: 9.0
+    attributes:
+      GENERIC_MAX_HEALTH: 15.0
+      GENERIC_ARMOR: 5.0
+      GENERIC_STEP_HEIGHT: 1.0
+      GENERIC_MOVEMENT_SPEED: -0.04
+    effects:
+      DAMAGE_RESISTANCE: 2
+      SLOW: 1
+      ABSORPTION: 2
+
+  # === MYSTICAL STATS ===
+
+  time_weaver:
+    type:
+      - "ALL"
+    display-name: "&#9370DB&lTime Weaver"
+    descriptions:
+      - "Manipulates the flow of time itself"
+      - "bending reality to your will"
+    chance: 5.0
+    attributes:
+      GENERIC_ATTACK_SPEED: 0.8
+      GENERIC_MOVEMENT_SPEED: 0.1
+      GENERIC_LUCK: 6.0
+    effects:
+      SPEED: 3
+      FAST_DIGGING: 3
+      REGENERATION: 1
+
+  soul_harvester:
+    type:
+      - "WEAPON"
+    display-name: "&0&lSoul Harvester"
+    descriptions:
+      - "Feeds on the souls of fallen enemies"
+      - "growing more powerful with each kill"
+    chance: 6.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 5.0
+      GENERIC_MAX_HEALTH: 8.0
+      GENERIC_LUCK: 4.0
+    effects:
+      WITHER: 1
+      INCREASE_DAMAGE: 2
+      HEALTH_BOOST: 2
+
+  dream_walker:
+    type:
+      - "ARMOR"
+    display-name: "&#DDA0DD&lDream Walker"
+    descriptions:
+      - "Walks between dreams and reality"
+      - "phasing through the physical world"
+    chance: 11.0
+    attributes:
+      GENERIC_MOVEMENT_SPEED: 0.06
+      GENERIC_ARMOR: -2.0
+      GENERIC_LUCK: 3.0
+    effects:
+      INVISIBILITY: 1
+      SPEED: 1
+      NIGHT_VISION: 1
+
+  # === CURSED STATS ===
+
+  blood_pact:
+    type:
+      - "ALL"
+    display-name: "&4&lBlood Pact"
+    descriptions:
+      - "A dark contract sealed in blood"
+      - "trading life force for raw power"
+    chance: 7.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 4.0
+      GENERIC_MAX_HEALTH: -8.0
+      GENERIC_LUCK: 7.0
+    effects:
+      INCREASE_DAMAGE: 3
+      WITHER: 1
+      HUNGER: 1
+
+  madness_embrace:
+    type:
+      - "WEAPON"
+    display-name: "&5&lMadness Embrace"
+    descriptions:
+      - "Embraces the chaos of madness"
+      - "for unpredictable devastating power"
+    chance: 8.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 7.0
+      GENERIC_ATTACK_SPEED: -0.2
+      GENERIC_MOVEMENT_SPEED: 0.03
+    effects:
+      INCREASE_DAMAGE: 2
+      CONFUSION: 1
+      SPEED: 1
+
+  plague_bearer:
+    type:
+      - "ARMOR"
+    display-name: "&2&lPlague Bearer"
+    descriptions:
+      - "Carries ancient plagues and diseases"
+      - "spreading corruption to enemies"
+    chance: 9.0
+    attributes:
+      GENERIC_MAX_HEALTH: 6.0
+      GENERIC_ARMOR: 1.0
+      GENERIC_MOVEMENT_SPEED: -0.02
+    effects:
+      POISON: 2
+      HUNGER: 1
+      DAMAGE_RESISTANCE: 1
+
+  # === DIVINE STATS ===
+
+  angel_blessing:
+    type:
+      - "ALL"
+    display-name: "&f&lAngel's Blessing"
+    descriptions:
+      - "Blessed by divine angels with"
+      - "pure light and healing power"
+    chance: 6.0
+    attributes:
+      GENERIC_MAX_HEALTH: 12.0
+      GENERIC_LUCK: 5.0
+      GENERIC_ARMOR_TOUGHNESS: 3.0
+    effects:
+      REGENERATION: 2
+      GLOWING: 1
+      ABSORPTION: 2
+
+  demon_contract:
+    type:
+      - "WEAPON"
+    display-name: "&4&lDemon Contract"
+    descriptions:
+      - "A pact with demonic forces"
+      - "granting hellish combat prowess"
+    chance: 5.0
+    attributes:
+      GENERIC_ATTACK_DAMAGE: 6.0
+      GENERIC_ATTACK_SPEED: 0.3
+      GENERIC_MAX_HEALTH: -4.0
+    effects:
+      INCREASE_DAMAGE: 3
+      FIRE_RESISTANCE: 1
+      WITHER: 1
+
+  # === UTILITY MASTERS ===
+
+  treasure_hunter:
+    type:
+      - "TOOL"
+    display-name: "&#FFD700&lTreasure Hunter"
+    descriptions:
+      - "Uncovers hidden treasures and"
+      - "rare materials with ease"
+    chance: 15.0
+    attributes:
+      GENERIC_LUCK: 8.0
+      GENERIC_MOVEMENT_EFFICIENCY: 0.4
+    effects:
+      FAST_DIGGING: 2
+      NIGHT_VISION: 1
+      GLOWING: 1
+
+  master_builder:
+    type:
+      - "TOOL"
+    display-name: "&6&lMaster Builder"
+    descriptions:
+      - "Crafted by legendary builders"
+      - "for ultimate construction efficiency"
+    chance: 13.0
+    attributes:
+      GENERIC_LUCK: 4.0
+      GENERIC_ATTACK_SPEED: 0.4
+      GENERIC_MOVEMENT_SPEED: 0.03
+    effects:
+      FAST_DIGGING: 3
+      SPEED: 1
+
+  forest_guardian:
+    type:
+      - "ALL"
+    display-name: "&2&lForest Guardian"
+    descriptions:
+      - "Protector of ancient forests"
+      - "blessed by nature spirits"
+    chance: 12.0
+    attributes:
+      GENERIC_MAX_HEALTH: 8.0
+      GENERIC_MOVEMENT_EFFICIENCY: 0.3
+      GENERIC_OXYGEN_BONUS: 100.0
+    effects:
+      REGENERATION: 1
+      SATURATION: 1
+      NIGHT_VISION: 1

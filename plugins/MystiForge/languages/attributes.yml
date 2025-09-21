@@ -1,0 +1,38 @@
+# MystiForge Attribute Display Names
+# Author: duxg
+# Version: 1.0
+
+# Attribute display names for lore formatting
+# Based on https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html
+attributes:
+  # Generic Attributes
+  GENERIC_ARMOR: "Armor"
+  GENERIC_ARMOR_TOUGHNESS: "Armor Toughness"
+  GENERIC_ATTACK_DAMAGE: "Attack Damage"
+  GENERIC_ATTACK_KNOCKBACK: "Attack Knockback"
+  GENERIC_ATTACK_SPEED: "Attack Speed"
+  GENERIC_FLYING_SPEED: "Flying Speed"
+  GENERIC_FOLLOW_RANGE: "Follow Range"
+  GENERIC_KNOCKBACK_RESISTANCE: "Knockback Resistance"
+  GENERIC_LUCK: "Luck"
+  GENERIC_MAX_HEALTH: "Max Health"
+  GENERIC_MOVEMENT_SPEED: "Movement Speed"
+  GENERIC_SCALE: "Scale"
+  GENERIC_STEP_HEIGHT: "Step Height"
+  GENERIC_GRAVITY: "Gravity"
+  GENERIC_SAFE_FALL_DISTANCE: "Safe Fall Distance"
+  GENERIC_FALL_DAMAGE_MULTIPLIER: "Fall Damage Multiplier"
+  GENERIC_JUMP_STRENGTH: "Jump Strength"
+  GENERIC_BURNING_TIME: "Burning Time"
+  GENERIC_EXPLOSION_KNOCKBACK_RESISTANCE: "Explosion Knockback Resistance"
+  GENERIC_MOVEMENT_EFFICIENCY: "Movement Efficiency"
+  GENERIC_OXYGEN_BONUS: "Oxygen Bonus"
+  GENERIC_WATER_MOVEMENT_EFFICIENCY: "Water Movement Efficiency"
+
+  # Horse Attributes
+  HORSE_JUMP_STRENGTH: "Horse Jump Strength"
+
+  # Zombie Attributes
+  ZOMBIE_SPAWN_REINFORCEMENTS: "Zombie Spawn Reinforcements"
+
+

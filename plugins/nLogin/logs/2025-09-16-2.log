@@ -1,0 +1,46 @@
+[2025/09/16 12:33:41]: §9          __             _       
+[2025/09/16 12:33:41]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/09/16 12:33:41]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/09/16 12:33:41]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/09/16 12:33:41]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/09/16 12:33:41]: §9                  |___/            
+[2025/09/16 12:33:41]: §9 By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[2025/09/16 12:33:41]: §9 
+[2025/09/16 12:33:41]: §3[nLogin] [DEBUG] All settings were loaded in 74 ms.
+[2025/09/16 12:33:41]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/09/16 12:33:41]: §3[nLogin] [DEBUG] All plugin messages were loaded in 37 ms (languageByClient=false).
+[2025/09/16 12:33:41]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2025/09/16 12:33:41]: §3[nLogin] [DEBUG] Loading database...
+[2025/09/16 12:33:41]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/09/16 12:33:52]: 
+[2025/09/16 12:33:52]:  §bThank you so much for choosing nLogin! §4<3
+[2025/09/16 12:33:52]: 
+[2025/09/16 12:33:52]:  §4For your safety, please read the message below:
+[2025/09/16 12:33:52]:   §cNever download nLogin from unknown sources.
+[2025/09/16 12:33:52]:   §cA modified version may contain malicious software.
+[2025/09/16 12:33:52]: 
+[2025/09/16 12:33:52]:  §3Trusted sources:
+[2025/09/16 12:33:52]:   §bwww.nickuc.com
+[2025/09/16 12:33:52]:   §bwww.github.com/nickuc
+[2025/09/16 12:33:52]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/09/16 12:33:52]: 
+[2025/09/16 12:33:52]:  §3Official support channels:
+[2025/09/16 12:33:52]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/09/16 12:33:52]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/09/16 12:33:52]:   §bEmail: §fsupport@nickuc.com
+[2025/09/16 12:33:52]:   §bYouTube: §fyoutube.com/nickuc
+[2025/09/16 12:33:52]: 
+[2025/09/16 12:33:52]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/09/16 12:33:52]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/09/16 12:33:52]: 
+[2025/09/16 12:34:39]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Pekora_UwU', `unique_id` = 2ba9f7b01af93ae791726c0ec42ae8de,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$PXdklun.r.MKafeuHbq0D.IaeNnYWX2yglq7IoqtZhEiHSFiE2P3a', `last_ip` = '127.0.0.1', `creation_date` = 2025-09-16 12:16:58.909, `last_seen` = 2025-09-16 12:34:39.635, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/09/16 12:34:39]: [nLogin] The user Pekora_UwU has successfully logged in.
+[2025/09/16 12:35:29]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Pekora_UwU', `unique_id` = 2ba9f7b01af93ae791726c0ec42ae8de,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$PXdklun.r.MKafeuHbq0D.IaeNnYWX2yglq7IoqtZhEiHSFiE2P3a', `last_ip` = '127.0.0.1', `creation_date` = 2025-09-16 12:16:58.909, `last_seen` = 2025-09-16 12:35:29.113, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/09/16 12:35:49]: [nLogin] The user Pekora_UwU has successfully logged in.
+[2025/09/16 12:36:07]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Pekora_UwU', `unique_id` = 2ba9f7b01af93ae791726c0ec42ae8de,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$PXdklun.r.MKafeuHbq0D.IaeNnYWX2yglq7IoqtZhEiHSFiE2P3a', `last_ip` = '127.0.0.1', `creation_date` = 2025-09-16 12:16:58.909, `last_seen` = 2025-09-16 12:36:07.458, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/09/16 12:44:27]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Pekora_UwU', `unique_id` = 2ba9f7b01af93ae791726c0ec42ae8de,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$PXdklun.r.MKafeuHbq0D.IaeNnYWX2yglq7IoqtZhEiHSFiE2P3a', `last_ip` = '127.0.0.1', `creation_date` = 2025-09-16 12:16:58.909, `last_seen` = 2025-09-16 12:44:27.957, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/09/16 12:44:42]: §3[nLogin] [DEBUG] The Pekora_UwU (127.0.0.1) player entered an incorrect password
+[2025/09/16 12:45:34]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Pekora_UwU', `unique_id` = 2ba9f7b01af93ae791726c0ec42ae8de,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$PXdklun.r.MKafeuHbq0D.IaeNnYWX2yglq7IoqtZhEiHSFiE2P3a', `last_ip` = '127.0.0.1', `creation_date` = 2025-09-16 12:16:58.909, `last_seen` = 2025-09-16 12:45:34.175, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/09/16 12:45:34]: [nLogin] The user Pekora_UwU has successfully logged in.
+[2025/09/16 12:48:48]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Pekora_UwU', `unique_id` = 2ba9f7b01af93ae791726c0ec42ae8de,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$PXdklun.r.MKafeuHbq0D.IaeNnYWX2yglq7IoqtZhEiHSFiE2P3a', `last_ip` = '127.0.0.1', `creation_date` = 2025-09-16 12:16:58.909, `last_seen` = 2025-09-16 12:48:48.856, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/09/16 12:48:55]: [nLogin] Successful plugin core shutdown (took 0.00s)
